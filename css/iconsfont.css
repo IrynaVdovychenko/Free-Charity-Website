@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/fonts/icomoon.eot?nx0mx1');
+  src:  url('../fonts/fonts/icomoon.eot?nx0mx1#iefix') format('embedded-opentype'),
+    url('../fonts/fonts/icomoon.ttf?nx0mx1') format('truetype'),
+    url('../fonts/fonts/icomoon.woff?nx0mx1') format('woff'),
+    url('../fonts/fonts/icomoon.svg?nx0mx1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="_icon-"]::before, [class*=" _icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+._icon-facebook:before {
+  content: "\e900";
+}
+._icon-facebook-f:before {
+  content: "\e901";
+}
+._icon-google-plus:before {
+  content: "\e902";
+}
+._icon-instagram:before {
+  content: "\e903";
+}
+._icon-linkedin-in:before {
+  content: "\e904";
+}
+._icon-square-whatsapp:before {
+  content: "\e905";
+}
+._icon-telegram-round:before {
+  content: "\e906";
+}
+._icon-telegram-alt:before {
+  content: "\e907";
+}
+._icon-telegram-svgrepo-com:before {
+  content: "\e908";
+}
+._icon-twitter:before {
+  content: "\e909";
+}
+._icon-user-solid:before {
+  content: "\e90a";
+}
+._icon-viber:before {
+  content: "\e90b";
+}
+._icon-whatsapp:before {
+  content: "\e90c";
+}
